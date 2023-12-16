@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkySense</title>
+    <link rel="shortcut icon" href="https://i.ibb.co/nbg8B4X/SkySense.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+     <!-- Tailwind and  Daisy UI cdn -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+                 // colors: {
+             //     clifford: '#da373d',
+                
+                
+             // }
+                // backgroundImage: { 
+                    
+                // }
+            }
+        }
+        }
+    </script>
+</head>
+<body class="body py-1">
+    <div class="card">
+        <header class="">
+            <div class=" ">
+                <div class="search">
+                    <input type="text" name="" id="" class="search-bar" placeholder="Enter the city name" spellcheck="false">
+                    <button class="search"><img src="./images/search.png" alt=""></button>
+                </div>
+            </div>
+        </header>
+        <main class="">
+            <div class="weather">
+                <img src="./images/rain.png" alt="Rainy" class="weather-icon w-8/12 mx-auto flex items-center justify-center">
+                <h1 class="temp">22°C</h1>
+                <h2 class="city">New York</h2>
+                <div class="details">
+                    <div class="col">
+                        <img src="./images/humidity.png" alt="" class="">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="./images/wind.png" alt="" class="">
+                        <div>
+                            <p class="wind">15 km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+    
+        </footer>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
