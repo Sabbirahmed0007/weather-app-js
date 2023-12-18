@@ -29,6 +29,7 @@
     justify-content: space-between;
     background-color: #ebfffc;
     border-radius: 30px;
+    box-shadow: 10px 10px 30px 2px black;
 
 }
 .search input{
@@ -43,7 +44,7 @@
     margin-right: 2px;
 }
 .search button {
-    color: white;
+    /* color: white; */
     border: 0;
     border-radius: 30px;
     width: 60px;
@@ -55,6 +56,7 @@
 }
 .search button img{
     width: 20px;
+    outline: none;
 }
 
 .details{
@@ -64,19 +66,23 @@
     padding: 0 15px;
     margin: 30px auto ;
 }
+
 .weather-icon{
     width: 170px;
     margin-top: 30px;
 }
+
 .weather h1{
     font-size: 80px;
     font-weight: 500;
 }
+
 .weather h2{
     font-size: 45px;
     font-weight: 500;
     margin-top: -10px;
 }
+
 .col{
     display: flex;
     align-items: center ;
@@ -85,6 +91,7 @@
     gap: 10px;
 
 }
+
 .col img {
     width: 40px;
 
