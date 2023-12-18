@@ -1,6 +1,6 @@
 // 754f46f567ced3ef6727c2841de24257
 const apiKey = '754f46f567ced3ef6727c2841de24257';
-const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?units=metric';
+const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=Sylhet';
 
 const searchBox = document.querySelector('.search-bar')
 const searchButton = document.querySelector('.search')
