@@ -101,3 +101,11 @@
     font-size: 24px;
     margin-top: -6%;
 }
+
+.error{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 24px;
+    margin-top: 10px;
+    display: none;
+}
